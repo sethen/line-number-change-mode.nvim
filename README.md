@@ -1,6 +1,6 @@
 # line-number-change-mode.nvim
 
-A Neovim plugin that allows you to see the mode on your line number.  Accepts anything that `vim.api.nvim_set_hl()` accepts!
+A Neovim plugin that allows you to change the color and text decoration your line number based on the current mode.  Accepts anything that `vim.api.nvim_set_hl()` accepts!
 
 
 https://github.com/user-attachments/assets/4da5fb44-ba0a-47d3-941e-944d86189a1a
