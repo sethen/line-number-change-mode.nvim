@@ -2,6 +2,8 @@
 
 A Neovim plugin that allows you to see the mode on your line number.  Accepts anything that `vim.api.nvim_set_hl()` accepts!
 
+https://github.com/sethen/line-number-change-mode.nvim/blob/main/line-number-change-mode.mp4
+
 Example using `lazy`:
 
 ```lua
