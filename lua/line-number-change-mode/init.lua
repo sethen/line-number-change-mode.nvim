@@ -7,11 +7,10 @@ function M.setup(opts)
       clear = true,
    })
 
-   local line_number_map = opts
 
    local function set_hl_for_mode(mode)
-      if line_number_map[mode] then
-         vim.api.nvim_set_hl(0, "CursorLineNr", line_number_map[mode])
+      if opts[mode] then
+         vim.api.nvim_set_hl(0, "CursorLineNr", opts[mode])
 
          -- Have to force a redraw to repaint line number if switching to cmd mode
          if mode == "c" then
