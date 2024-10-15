@@ -51,3 +51,7 @@ return {
     end
 }
 ```
+
+# Similar Plugins ❤️
+* [Moody](https://github.com/svampkorg/moody.nvim)
+* [Modicator](https://github.com/mawkler/modicator.nvim)
